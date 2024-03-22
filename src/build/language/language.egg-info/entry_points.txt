@@ -1,0 +1,4 @@
+[console_scripts]
+app = language.flask:main
+rl = language.QLearning:main
+robot = language.robot:main

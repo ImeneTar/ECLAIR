@@ -1,0 +1,40 @@
+[2.339s] Invoking command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/language': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/language build --build-base /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build install --record /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/install.log --single-version-externally-managed
+[2.549s] running egg_info
+[2.565s] writing ../build/language/language.egg-info/PKG-INFO
+[2.565s] writing dependency_links to ../build/language/language.egg-info/dependency_links.txt
+[2.566s] writing entry points to ../build/language/language.egg-info/entry_points.txt
+[2.566s] writing requirements to ../build/language/language.egg-info/requires.txt
+[2.566s] writing top-level names to ../build/language/language.egg-info/top_level.txt
+[2.725s] listing git files failed - pretending there aren't any
+[2.766s] reading manifest file '../build/language/language.egg-info/SOURCES.txt'
+[2.767s] writing manifest file '../build/language/language.egg-info/SOURCES.txt'
+[2.767s] running build
+[2.767s] running build_py
+[2.768s] copying language/flask.py -> /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build/lib/language
+[2.775s] running install
+[2.775s] /home/imene/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.775s] !!
+[2.776s] 
+[2.776s]         ********************************************************************************
+[2.776s]         Please avoid running ``setup.py`` directly.
+[2.776s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[2.776s]         other standards-based tools.
+[2.776s] 
+[2.776s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.776s]         ********************************************************************************
+[2.776s] 
+[2.776s] !!
+[2.776s]   self.initialize_options()
+[2.780s] running install_lib
+[2.797s] copying /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build/lib/language/flask.py -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language
+[2.797s] byte-compiling /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language/flask.py to flask.cpython-38.pyc
+[2.798s] running install_data
+[2.816s] running install_egg_info
+[2.833s] removing '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language-0.0.0-py3.8.egg-info' (and everything under it)
+[2.833s] Copying ../build/language/language.egg-info to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language-0.0.0-py3.8.egg-info
+[2.833s] running install_scripts
+[2.895s] Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+[2.895s] Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+[2.895s] Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+[2.895s] writing list of installed files to '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/install.log'
+[2.913s] Invoked command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/language' returned '0': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/language build --build-base /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build install --record /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/install.log --single-version-externally-managed

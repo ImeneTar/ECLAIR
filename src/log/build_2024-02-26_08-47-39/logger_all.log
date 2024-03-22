@@ -1,0 +1,126 @@
+[7.217s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'language'][0m
+[7.217s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5242509250>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['language'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5242509250>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f52421c4f10>)[0m
+[7.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[7.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[7.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[7.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[7.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[7.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[7.520s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/imene/Documents/Code2024/Language/ros2_ws/src'
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[7.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[7.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[7.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[7.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[7.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[7.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[7.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extensions ['ignore', 'ignore_ament_install']
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extension 'ignore'
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extension 'ignore_ament_install'
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extensions ['colcon_pkg']
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extension 'colcon_pkg'
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extensions ['colcon_meta']
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extension 'colcon_meta'
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extensions ['ros']
+[7.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(evaluative) by extension 'ros'
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'evaluative' with type 'ros.ament_python' and name 'evaluative'[0m
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extensions ['ignore', 'ignore_ament_install']
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extension 'ignore'
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extension 'ignore_ament_install'
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extensions ['colcon_pkg']
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extension 'colcon_pkg'
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extensions ['colcon_meta']
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extension 'colcon_meta'
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extensions ['ros']
+[7.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(language) by extension 'ros'
+[7.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'language' with type 'ros.ament_python' and name 'language'[0m
+[7.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[7.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[7.540s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[7.540s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[7.540s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[7.540s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[7.540s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[7.926s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'evaluative' in 'evaluative'
+[8.173s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[8.173s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[8.424s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/imene/Documents/Code2024/Language/ros2_ws/src/install[0m
+[8.554s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 173 installed packages in /opt/ros/galactic[0m
+[8.684s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'cmake_args' from command line to 'None'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'cmake_target' from command line to 'None'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'cmake_clean_cache' from command line to 'False'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'cmake_clean_first' from command line to 'False'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'cmake_force_configure' from command line to 'False'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'ament_cmake_args' from command line to 'None'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'catkin_cmake_args' from command line to 'None'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'language' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.952s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'language' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language', 'merge_install': False, 'path': '/home/imene/Documents/Code2024/Language/ros2_ws/src/language', 'symlink_install': False, 'test_result_base': None}[0m
+[9.074s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[9.195s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[9.195s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/imene/Documents/Code2024/Language/ros2_ws/src/language' with build type 'ament_python'
+[9.195s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('language', 'ament_prefix_path')
+[9.320s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/hook/ament_prefix_path.ps1'
+[9.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/hook/ament_prefix_path.dsv'
+[9.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/hook/ament_prefix_path.sh'
+[9.448s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.449s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[9.949s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mIgnoring prefix path '/opt/ros/noetic'[0m
+[10.138s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/imene/Documents/Code2024/Language/ros2_ws/src/language'
+[10.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.279s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[10.850s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mIgnoring prefix path '/opt/ros/noetic'[0m
+[11.534s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/language': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/language build --build-base /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build install --record /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/install.log --single-version-externally-managed[0m
+[12.109s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/language' returned '0': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/language build --build-base /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build install --record /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/install.log --single-version-externally-managed[0m
+[12.255s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language' for CMake module files
+[12.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language' for CMake config files
+[12.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib'
+[12.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/bin'
+[12.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/pkgconfig/language.pc'
+[12.257s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages'
+[12.257s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('language', 'pythonpath')
+[12.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/hook/pythonpath.ps1'
+[12.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/hook/pythonpath.dsv'
+[12.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/hook/pythonpath.sh'
+[12.389s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/bin'
+[12.389s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(language)
+[12.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/package.ps1'
+[12.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/package.dsv'
+[12.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/package.sh'
+[12.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/package.bash'
+[12.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language/package.zsh'
+[12.523s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/colcon-core/packages/language)
+[12.523s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[12.524s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[12.524s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[12.524s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[12.670s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.670s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.670s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[12.681s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[12.863s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/local_setup.ps1'
+[12.864s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/_local_setup_util_ps1.py'
+[12.865s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/setup.ps1'
+[13.050s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/local_setup.sh'
+[13.051s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/_local_setup_util_sh.py'
+[13.051s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/setup.sh'
+[13.240s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/local_setup.bash'
+[13.241s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/setup.bash'
+[13.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/local_setup.zsh'
+[13.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/setup.zsh'

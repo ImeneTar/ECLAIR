@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+evaluative/QLearning.py
+evaluative/__init__.py
+evaluative/flask.py
+evaluative/qlearning.py
+evaluative/robot.py
+evaluative/utils.py
+evaluative.egg-info/PKG-INFO
+evaluative.egg-info/SOURCES.txt
+evaluative.egg-info/dependency_links.txt
+evaluative.egg-info/entry_points.txt
+evaluative.egg-info/requires.txt
+evaluative.egg-info/top_level.txt
+evaluative.egg-info/zip-safe
+resource/evaluative

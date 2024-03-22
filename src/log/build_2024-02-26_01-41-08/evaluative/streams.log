@@ -1,0 +1,53 @@
+[5.322s] Invoking command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative/build --no-deps install_data
+[5.877s] running develop
+[5.877s] /home/imene/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.878s] !!
+[5.878s] 
+[5.878s]         ********************************************************************************
+[5.878s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.878s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[5.878s]         other standards-based tools.
+[5.878s] 
+[5.878s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.878s]         ********************************************************************************
+[5.878s] 
+[5.878s] !!
+[5.878s]   easy_install.initialize_options(self)
+[5.931s] /home/imene/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.931s] !!
+[5.931s] 
+[5.931s]         ********************************************************************************
+[5.931s]         Please avoid running ``setup.py`` directly.
+[5.931s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[5.931s]         other standards-based tools.
+[5.931s] 
+[5.931s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.931s]         ********************************************************************************
+[5.932s] 
+[5.932s] !!
+[5.932s]   self.initialize_options()
+[6.220s] running egg_info
+[6.220s] creating evaluative.egg-info
+[6.255s] writing evaluative.egg-info/PKG-INFO
+[6.255s] writing dependency_links to evaluative.egg-info/dependency_links.txt
+[6.255s] writing entry points to evaluative.egg-info/entry_points.txt
+[6.255s] writing requirements to evaluative.egg-info/requires.txt
+[6.255s] writing top-level names to evaluative.egg-info/top_level.txt
+[6.256s] writing manifest file 'evaluative.egg-info/SOURCES.txt'
+[6.333s] listing git files failed - pretending there aren't any
+[6.396s] reading manifest file 'evaluative.egg-info/SOURCES.txt'
+[6.398s] writing manifest file 'evaluative.egg-info/SOURCES.txt'
+[6.474s] running build_ext
+[6.474s] Creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/python3.8/site-packages/evaluative.egg-link (link to .)
+[6.475s] Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative
+[6.475s] Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative
+[6.476s] Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative
+[6.476s] 
+[6.476s] Installed /home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative
+[6.476s] running install_data
+[6.476s] creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index
+[6.476s] creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index/resource_index
+[6.476s] creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index/resource_index/packages
+[6.477s] copying resource/evaluative -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index/resource_index/packages
+[6.477s] copying package.xml -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/evaluative
+[6.525s] Invoked command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative' returned '0': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative/build --no-deps install_data

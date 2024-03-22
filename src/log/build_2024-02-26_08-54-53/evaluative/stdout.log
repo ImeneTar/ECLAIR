@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing evaluative.egg-info/PKG-INFO
+writing dependency_links to evaluative.egg-info/dependency_links.txt
+writing entry points to evaluative.egg-info/entry_points.txt
+writing requirements to evaluative.egg-info/requires.txt
+writing top-level names to evaluative.egg-info/top_level.txt
+reading manifest file 'evaluative.egg-info/SOURCES.txt'
+writing manifest file 'evaluative.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/python3.8/site-packages/evaluative.egg-link (link to .)
+Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative
+Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative
+Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative
+
+Installed /home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative
+running install_data

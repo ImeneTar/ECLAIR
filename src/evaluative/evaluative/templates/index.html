@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speak and Transcribe</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            margin: 0;
+            padding: 10px;
+        }
+
+
+
+
+        .button-container {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .button {
+            padding: 8px 16px;
+            margin: 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        .correct-button {
+            background-color: green;
+            color: white;
+        }
+
+        .wrong-button {
+            background-color: red;
+            color: white;
+        }
+
+
+
+        .button-clicked_correct {
+            transform: scale(0.95); /* Apply a slight scale down effect */
+            background-color: #4CAF50; /* Change the background color when clicked */
+            transition: all 0.1s ease; /* Add a smooth transition effect */
+        }
+
+        .button-clicked_wrong {
+            transform: scale(0.95); /* Apply a slight scale down effect */
+            background-color: #af4c4c; /* Change the background color when clicked */
+            transition: all 0.1s ease; /* Add a smooth transition effect */
+        }
+
+
+        .hide-button {
+            visibility: hidden;
+        }
+
+        @media (max-width: 768px) {
+            .images-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+<!--    <button id="startRecord">Start Recording</button>-->
+    <div class="button-container">
+        <button id="correct" class="button correct-button">Correct</button>
+        <button id="wrong" class="button wrong-button">Wrong</button>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

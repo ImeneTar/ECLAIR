@@ -1,0 +1,53 @@
+[4.289s] Invoking command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build --no-deps install_data
+[4.839s] running develop
+[4.839s] /home/imene/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.839s] !!
+[4.840s] 
+[4.840s]         ********************************************************************************
+[4.840s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.840s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[4.840s]         other standards-based tools.
+[4.840s] 
+[4.840s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.840s]         ********************************************************************************
+[4.840s] 
+[4.840s] !!
+[4.841s]   easy_install.initialize_options(self)
+[4.890s] /home/imene/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.890s] !!
+[4.891s] 
+[4.891s]         ********************************************************************************
+[4.891s]         Please avoid running ``setup.py`` directly.
+[4.891s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[4.891s]         other standards-based tools.
+[4.891s] 
+[4.891s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.891s]         ********************************************************************************
+[4.891s] 
+[4.891s] !!
+[4.891s]   self.initialize_options()
+[5.183s] running egg_info
+[5.183s] creating language.egg-info
+[5.216s] writing language.egg-info/PKG-INFO
+[5.216s] writing dependency_links to language.egg-info/dependency_links.txt
+[5.216s] writing entry points to language.egg-info/entry_points.txt
+[5.216s] writing requirements to language.egg-info/requires.txt
+[5.216s] writing top-level names to language.egg-info/top_level.txt
+[5.217s] writing manifest file 'language.egg-info/SOURCES.txt'
+[5.296s] listing git files failed - pretending there aren't any
+[5.381s] reading manifest file 'language.egg-info/SOURCES.txt'
+[5.382s] writing manifest file 'language.egg-info/SOURCES.txt'
+[5.478s] running build_ext
+[5.478s] Creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language.egg-link (link to .)
+[5.479s] Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+[5.479s] Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+[5.479s] Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+[5.480s] 
+[5.480s] Installed /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language
+[5.480s] running install_data
+[5.480s] creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index
+[5.480s] creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index
+[5.480s] creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index/packages
+[5.480s] copying resource/language -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index/packages
+[5.480s] copying package.xml -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language
+[6.404s] Invoked command in '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language' returned '0': PYTHONPATH=/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build --no-deps install_data

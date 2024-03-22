@@ -1,0 +1,4 @@
+[console_scripts]
+app = evaluative.flask:main
+rl = evaluative.QLearning:main
+robot = evaluative.robot:main

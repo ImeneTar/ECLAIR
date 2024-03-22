@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000404] (evaluative) JobQueued: {'identifier': 'evaluative', 'dependencies': OrderedDict()}
+[0.000521] (language) JobQueued: {'identifier': 'language', 'dependencies': OrderedDict()}
+[0.000809] (evaluative) JobStarted: {'identifier': 'evaluative'}
+[0.099797] (-) TimerEvent: {}
+[0.200437] (-) TimerEvent: {}
+[0.300907] (-) TimerEvent: {}
+[0.401590] (-) TimerEvent: {}
+[0.502171] (-) TimerEvent: {}
+[0.602943] (-) TimerEvent: {}
+[0.704079] (-) TimerEvent: {}
+[0.804738] (-) TimerEvent: {}
+[0.905171] (-) TimerEvent: {}
+[1.009912] (-) TimerEvent: {}
+[1.016101] (language) JobStarted: {'identifier': 'language'}
+[1.110149] (-) TimerEvent: {}
+[1.210908] (-) TimerEvent: {}
+[1.311674] (-) TimerEvent: {}
+[1.412262] (-) TimerEvent: {}
+[1.512993] (-) TimerEvent: {}
+[1.613594] (-) TimerEvent: {}
+[1.715612] (-) TimerEvent: {}
+[1.816362] (-) TimerEvent: {}
+[1.919795] (-) TimerEvent: {}
+[2.020234] (-) TimerEvent: {}
+[2.120722] (-) TimerEvent: {}
+[2.221090] (-) TimerEvent: {}
+[2.321497] (-) TimerEvent: {}
+[2.422153] (-) TimerEvent: {}
+[2.522985] (-) TimerEvent: {}
+[2.623864] (-) TimerEvent: {}
+[2.725307] (-) TimerEvent: {}
+[2.826193] (-) TimerEvent: {}
+[2.926716] (-) TimerEvent: {}
+[3.027379] (-) TimerEvent: {}
+[3.129504] (-) TimerEvent: {}
+[3.230328] (-) TimerEvent: {}
+[3.330756] (-) TimerEvent: {}
+[3.431266] (-) TimerEvent: {}
+[3.532694] (-) TimerEvent: {}
+[3.633050] (-) TimerEvent: {}
+[3.733956] (-) TimerEvent: {}
+[3.834863] (-) TimerEvent: {}
+[3.935494] (-) TimerEvent: {}
+[4.035801] (-) TimerEvent: {}
+[4.136427] (-) TimerEvent: {}
+[4.236995] (-) TimerEvent: {}
+[4.337465] (-) TimerEvent: {}
+[4.437783] (-) TimerEvent: {}
+[4.538107] (-) TimerEvent: {}
+[4.638720] (-) TimerEvent: {}
+[4.739114] (-) TimerEvent: {}
+[4.839450] (-) TimerEvent: {}
+[4.940056] (-) TimerEvent: {}
+[5.040394] (-) TimerEvent: {}
+[5.141030] (-) TimerEvent: {}
+[5.241389] (-) TimerEvent: {}
+[5.303501] (language) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build', '--no-deps', 'install_data'], 'cwd': '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language', 'env': {'TERM_SESSION_ID': '35ad1a42-c079-4c41-b1ea-157e2b2b92d5', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'SNAP_INSTANCE_KEY': '', 'USER': 'imene', 'SNAP_COMMON': '/var/snap/pycharm-community/common', 'SSH_AGENT_PID': '2594', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SNAP_UID': '1000', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib::/home/imene/.mujoco/mujoco200/bin:/usr/lib/nvidia', 'HOME': '/home/imene', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'OLDPWD': '/home/imene/Documents/Code2024/Language/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/imene/snap/pycharm-community/364', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2343', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '364', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4243', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'imene', 'SNAP_CONTEXT': 'ASVsCxvgB7AQacJklKxG5rHsLfkmK6hvxK5egpOj-JC0-uUxCgh-', 'JOURNAL_STREAM': '8:62850', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '2023.3.3', 'USERNAME': 'imene', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'pycharm-community', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/opt/ros/noetic/bin::/home/imene/.mujoco/mujoco200/bin:/usr/lib/nvidia:/home/imene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/imene-HP-EliteBook-x360-1040-G8-Notebook-PC:@/tmp/.ICE-unix/2632,unix/imene-HP-EliteBook-x360-1040-G8-Notebook-PC:/tmp/.ICE-unix/2632', 'INVOCATION_ID': '0056bdeae74a46198b1221497a802900', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop', 'SNAP_DATA': '/var/snap/pycharm-community/364', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'DESKTOP_STARTUP_ID': 'gnome-shell/PyCharm Community Edition/2646-0-imene-HP-EliteBook-x360-1040-G8-Notebook-PC_TIME40045', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/libGLEW.so', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SNAP_USER_COMMON': '/home/imene/snap/pycharm-community/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SNAP_COOKIE': 'ASVsCxvgB7AQacJklKxG5rHsLfkmK6hvxK5egpOj-JC0-uUxCgh-', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'SNAP_REEXEC': '', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SNAP_NAME': 'pycharm-community', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SNAP_REAL_HOME': '/home/imene', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'PYTHONPATH': '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'SNAP': '/snap/pycharm-community/364', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic'}, 'shell': False}
+[5.320432] (evaluative) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative/build', '--no-deps', 'install_data'], 'cwd': '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative', 'env': {'TERM_SESSION_ID': '35ad1a42-c079-4c41-b1ea-157e2b2b92d5', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'SNAP_INSTANCE_KEY': '', 'USER': 'imene', 'SNAP_COMMON': '/var/snap/pycharm-community/common', 'SSH_AGENT_PID': '2594', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SNAP_UID': '1000', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib::/home/imene/.mujoco/mujoco200/bin:/usr/lib/nvidia', 'HOME': '/home/imene', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'OLDPWD': '/home/imene/Documents/Code2024/Language/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/imene/snap/pycharm-community/364', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2343', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '364', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4243', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'imene', 'SNAP_CONTEXT': 'ASVsCxvgB7AQacJklKxG5rHsLfkmK6hvxK5egpOj-JC0-uUxCgh-', 'JOURNAL_STREAM': '8:62850', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '2023.3.3', 'USERNAME': 'imene', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'pycharm-community', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/opt/ros/noetic/bin::/home/imene/.mujoco/mujoco200/bin:/usr/lib/nvidia:/home/imene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/imene-HP-EliteBook-x360-1040-G8-Notebook-PC:@/tmp/.ICE-unix/2632,unix/imene-HP-EliteBook-x360-1040-G8-Notebook-PC:/tmp/.ICE-unix/2632', 'INVOCATION_ID': '0056bdeae74a46198b1221497a802900', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop', 'SNAP_DATA': '/var/snap/pycharm-community/364', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'DESKTOP_STARTUP_ID': 'gnome-shell/PyCharm Community Edition/2646-0-imene-HP-EliteBook-x360-1040-G8-Notebook-PC_TIME40045', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/libGLEW.so', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SNAP_USER_COMMON': '/home/imene/snap/pycharm-community/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SNAP_COOKIE': 'ASVsCxvgB7AQacJklKxG5rHsLfkmK6hvxK5egpOj-JC0-uUxCgh-', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'SNAP_REEXEC': '', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SNAP_NAME': 'pycharm-community', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SNAP_REAL_HOME': '/home/imene', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'PYTHONPATH': '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative/prefix_override:/home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'SNAP': '/snap/pycharm-community/364', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic'}, 'shell': False}
+[5.341540] (-) TimerEvent: {}
+[5.441976] (-) TimerEvent: {}
+[5.542394] (-) TimerEvent: {}
+[5.642759] (-) TimerEvent: {}
+[5.743095] (-) TimerEvent: {}
+[5.843667] (-) TimerEvent: {}
+[5.855273] (language) StdoutLine: {'line': b'running develop\n'}
+[5.855651] (language) StderrLine: {'line': b'/home/imene/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[5.855805] (language) StderrLine: {'line': b'!!\n'}
+[5.855903] (language) StderrLine: {'line': b'\n'}
+[5.855995] (language) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.856087] (language) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[5.856188] (language) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[5.856283] (language) StderrLine: {'line': b'        other standards-based tools.\n'}
+[5.856373] (language) StderrLine: {'line': b'\n'}
+[5.856465] (language) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[5.856554] (language) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.856644] (language) StderrLine: {'line': b'\n'}
+[5.856738] (language) StderrLine: {'line': b'!!\n'}
+[5.856829] (language) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[5.878122] (evaluative) StdoutLine: {'line': b'running develop\n'}
+[5.878411] (evaluative) StderrLine: {'line': b'/home/imene/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[5.878492] (evaluative) StderrLine: {'line': b'!!\n'}
+[5.878547] (evaluative) StderrLine: {'line': b'\n'}
+[5.878602] (evaluative) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.878654] (evaluative) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[5.878706] (evaluative) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[5.878760] (evaluative) StderrLine: {'line': b'        other standards-based tools.\n'}
+[5.878812] (evaluative) StderrLine: {'line': b'\n'}
+[5.878865] (evaluative) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[5.878919] (evaluative) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.878976] (evaluative) StderrLine: {'line': b'\n'}
+[5.879036] (evaluative) StderrLine: {'line': b'!!\n'}
+[5.879092] (evaluative) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[5.906439] (language) StderrLine: {'line': b'/home/imene/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[5.906721] (language) StderrLine: {'line': b'!!\n'}
+[5.906822] (language) StderrLine: {'line': b'\n'}
+[5.906916] (language) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.907009] (language) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[5.907101] (language) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[5.907192] (language) StderrLine: {'line': b'        other standards-based tools.\n'}
+[5.907282] (language) StderrLine: {'line': b'\n'}
+[5.907371] (language) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[5.907462] (language) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.907552] (language) StderrLine: {'line': b'\n'}
+[5.907642] (language) StderrLine: {'line': b'!!\n'}
+[5.907731] (language) StderrLine: {'line': b'  self.initialize_options()\n'}
+[5.931411] (evaluative) StderrLine: {'line': b'/home/imene/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[5.931662] (evaluative) StderrLine: {'line': b'!!\n'}
+[5.931757] (evaluative) StderrLine: {'line': b'\n'}
+[5.931849] (evaluative) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.931940] (evaluative) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[5.932031] (evaluative) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[5.932121] (evaluative) StderrLine: {'line': b'        other standards-based tools.\n'}
+[5.932220] (evaluative) StderrLine: {'line': b'\n'}
+[5.932313] (evaluative) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[5.932403] (evaluative) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.932492] (evaluative) StderrLine: {'line': b'\n'}
+[5.932582] (evaluative) StderrLine: {'line': b'!!\n'}
+[5.932670] (evaluative) StderrLine: {'line': b'  self.initialize_options()\n'}
+[5.943740] (-) TimerEvent: {}
+[6.044011] (-) TimerEvent: {}
+[6.144333] (-) TimerEvent: {}
+[6.199286] (language) StdoutLine: {'line': b'running egg_info\n'}
+[6.199504] (language) StdoutLine: {'line': b'creating language.egg-info\n'}
+[6.221057] (evaluative) StdoutLine: {'line': b'running egg_info\n'}
+[6.221260] (evaluative) StdoutLine: {'line': b'creating evaluative.egg-info\n'}
+[6.231894] (language) StdoutLine: {'line': b'writing language.egg-info/PKG-INFO\n'}
+[6.232140] (language) StdoutLine: {'line': b'writing dependency_links to language.egg-info/dependency_links.txt\n'}
+[6.232394] (language) StdoutLine: {'line': b'writing entry points to language.egg-info/entry_points.txt\n'}
+[6.232533] (language) StdoutLine: {'line': b'writing requirements to language.egg-info/requires.txt\n'}
+[6.232650] (language) StdoutLine: {'line': b'writing top-level names to language.egg-info/top_level.txt\n'}
+[6.233611] (language) StdoutLine: {'line': b"writing manifest file 'language.egg-info/SOURCES.txt'\n"}
+[6.244410] (-) TimerEvent: {}
+[6.255449] (evaluative) StdoutLine: {'line': b'writing evaluative.egg-info/PKG-INFO\n'}
+[6.255768] (evaluative) StdoutLine: {'line': b'writing dependency_links to evaluative.egg-info/dependency_links.txt\n'}
+[6.255972] (evaluative) StdoutLine: {'line': b'writing entry points to evaluative.egg-info/entry_points.txt\n'}
+[6.256126] (evaluative) StdoutLine: {'line': b'writing requirements to evaluative.egg-info/requires.txt\n'}
+[6.256261] (evaluative) StdoutLine: {'line': b'writing top-level names to evaluative.egg-info/top_level.txt\n'}
+[6.257195] (evaluative) StdoutLine: {'line': b"writing manifest file 'evaluative.egg-info/SOURCES.txt'\n"}
+[6.311967] (language) StderrLine: {'line': b"listing git files failed - pretending there aren't any\n"}
+[6.334123] (evaluative) StderrLine: {'line': b"listing git files failed - pretending there aren't any\n"}
+[6.344526] (-) TimerEvent: {}
+[6.396914] (language) StdoutLine: {'line': b"reading manifest file 'language.egg-info/SOURCES.txt'\n"}
+[6.397429] (evaluative) StdoutLine: {'line': b"reading manifest file 'evaluative.egg-info/SOURCES.txt'\n"}
+[6.397978] (language) StdoutLine: {'line': b"writing manifest file 'language.egg-info/SOURCES.txt'\n"}
+[6.398524] (evaluative) StdoutLine: {'line': b"writing manifest file 'evaluative.egg-info/SOURCES.txt'\n"}
+[6.444625] (-) TimerEvent: {}
+[6.474853] (evaluative) StdoutLine: {'line': b'running build_ext\n'}
+[6.475114] (evaluative) StdoutLine: {'line': b'Creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/python3.8/site-packages/evaluative.egg-link (link to .)\n'}
+[6.475987] (evaluative) StdoutLine: {'line': b'Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative\n'}
+[6.476295] (evaluative) StdoutLine: {'line': b'Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative\n'}
+[6.476472] (evaluative) StdoutLine: {'line': b'Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/lib/evaluative\n'}
+[6.476713] (evaluative) StdoutLine: {'line': b'\n'}
+[6.476859] (evaluative) StdoutLine: {'line': b'Installed /home/imene/Documents/Code2024/Language/ros2_ws/src/build/evaluative\n'}
+[6.476963] (evaluative) StdoutLine: {'line': b'running install_data\n'}
+[6.477111] (evaluative) StdoutLine: {'line': b'creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index\n'}
+[6.477245] (evaluative) StdoutLine: {'line': b'creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index/resource_index\n'}
+[6.477371] (evaluative) StdoutLine: {'line': b'creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index/resource_index/packages\n'}
+[6.477472] (evaluative) StdoutLine: {'line': b'copying resource/evaluative -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/ament_index/resource_index/packages\n'}
+[6.477597] (evaluative) StdoutLine: {'line': b'copying package.xml -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/evaluative/share/evaluative\n'}
+[6.494289] (language) StdoutLine: {'line': b'running build_ext\n'}
+[6.494571] (language) StdoutLine: {'line': b'Creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language.egg-link (link to .)\n'}
+[6.495381] (language) StdoutLine: {'line': b'Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language\n'}
+[6.495588] (language) StdoutLine: {'line': b'Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language\n'}
+[6.495718] (language) StdoutLine: {'line': b'Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language\n'}
+[6.495899] (language) StdoutLine: {'line': b'\n'}
+[6.496040] (language) StdoutLine: {'line': b'Installed /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language\n'}
+[6.496140] (language) StdoutLine: {'line': b'running install_data\n'}
+[6.496299] (language) StdoutLine: {'line': b'creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index\n'}
+[6.496427] (language) StdoutLine: {'line': b'creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index\n'}
+[6.496554] (language) StdoutLine: {'line': b'creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index/packages\n'}
+[6.496660] (language) StdoutLine: {'line': b'copying resource/language -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index/packages\n'}
+[6.496760] (language) StdoutLine: {'line': b'copying package.xml -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language\n'}
+[6.525370] (evaluative) CommandEnded: {'returncode': 0}
+[6.544724] (-) TimerEvent: {}
+[6.645061] (-) TimerEvent: {}
+[6.745820] (-) TimerEvent: {}
+[6.846422] (-) TimerEvent: {}
+[6.946874] (-) TimerEvent: {}
+[7.047316] (-) TimerEvent: {}
+[7.148435] (-) TimerEvent: {}
+[7.248966] (-) TimerEvent: {}
+[7.349640] (-) TimerEvent: {}
+[7.418548] (evaluative) JobEnded: {'identifier': 'evaluative', 'rc': 0}
+[7.420088] (language) CommandEnded: {'returncode': 0}
+[7.450072] (-) TimerEvent: {}
+[7.550751] (-) TimerEvent: {}
+[7.651164] (-) TimerEvent: {}
+[7.752818] (-) TimerEvent: {}
+[7.853353] (-) TimerEvent: {}
+[7.953671] (-) TimerEvent: {}
+[8.054404] (-) TimerEvent: {}
+[8.155037] (-) TimerEvent: {}
+[8.255618] (-) TimerEvent: {}
+[8.259818] (language) JobEnded: {'identifier': 'language', 'rc': 0}
+[8.260724] (-) EventReactorShutdown: {}

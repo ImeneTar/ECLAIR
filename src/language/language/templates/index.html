@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speak and Transcribe</title>
+    <style>
+        body {
+            text-align: center; /* Center align the content of the body */
+            font-family: Arial, sans-serif; /* Set a nice font */
+        }
+
+        #transcription {
+            font-size: 24px; /* Larger font size for transcription */
+            margin-top: 20px; /* Add some space above the transcription text */
+        }
+
+        #startRecord {
+            margin-top: 50px; /* Add some space above the microphone image */
+        }
+    </style>
+</head>
+<body>
+    <!-- Removed button and directly using image for recording -->
+    <img id="startRecord" src="static/mic.png" alt="Record" style="cursor: pointer;"/>
+    <audio id="startSound" src="static/start.mp3"></audio>
+    <audio id="stopSound" src="static/stop.mp3"></audio>
+    <p id="transcription">Transcription will appear here...</p>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

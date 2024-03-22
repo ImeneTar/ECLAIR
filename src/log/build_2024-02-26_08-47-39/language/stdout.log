@@ -1,0 +1,24 @@
+running egg_info
+writing ../build/language/language.egg-info/PKG-INFO
+writing dependency_links to ../build/language/language.egg-info/dependency_links.txt
+writing entry points to ../build/language/language.egg-info/entry_points.txt
+writing requirements to ../build/language/language.egg-info/requires.txt
+writing top-level names to ../build/language/language.egg-info/top_level.txt
+reading manifest file '../build/language/language.egg-info/SOURCES.txt'
+writing manifest file '../build/language/language.egg-info/SOURCES.txt'
+running build
+running build_py
+copying language/flask.py -> /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build/lib/language
+running install
+running install_lib
+copying /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/build/lib/language/flask.py -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language
+byte-compiling /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language/flask.py to flask.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/language/language.egg-info to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language-0.0.0-py3.8.egg-info
+running install_scripts
+Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+writing list of installed files to '/home/imene/Documents/Code2024/Language/ros2_ws/src/build/language/install.log'

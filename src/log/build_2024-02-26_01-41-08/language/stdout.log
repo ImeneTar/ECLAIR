@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating language.egg-info
+writing language.egg-info/PKG-INFO
+writing dependency_links to language.egg-info/dependency_links.txt
+writing entry points to language.egg-info/entry_points.txt
+writing requirements to language.egg-info/requires.txt
+writing top-level names to language.egg-info/top_level.txt
+writing manifest file 'language.egg-info/SOURCES.txt'
+reading manifest file 'language.egg-info/SOURCES.txt'
+writing manifest file 'language.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/python3.8/site-packages/language.egg-link (link to .)
+Installing app script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+Installing rl script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+Installing robot script to /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/lib/language
+
+Installed /home/imene/Documents/Code2024/Language/ros2_ws/src/build/language
+running install_data
+creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index
+creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index
+creating /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index/packages
+copying resource/language -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/ament_index/resource_index/packages
+copying package.xml -> /home/imene/Documents/Code2024/Language/ros2_ws/src/install/language/share/language
