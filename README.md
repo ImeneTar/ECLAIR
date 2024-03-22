@@ -8,5 +8,5 @@ ECLAIR is a Reinforcement Learning (RL) framework that integrates different type
 
 <br>
 <p align="center">
-  <img src="eclair-1.png" alt="Descriptive Alt Text" width="600" height="200"/>
+  <img src="eclair-1.png" alt="Descriptive Alt Text" width="1000" height="250"/>
 </p>
