@@ -161,7 +161,7 @@ app = Flask(__name__, template_folder=os.path.join(os.path.dirname(os.path.abspa
 CORS(app, resources={r"/transcribe": {"origins": "http://192.168.8.108:5000"}})
 
 # Ensure your OpenAI API key is set as an environment variable
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="xxxxx") #add key
 
 @app.route('/')
 def index():
